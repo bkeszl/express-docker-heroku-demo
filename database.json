@@ -1,8 +1,4 @@
 {
-  "heroku": {
-    "ENV": {"ENV": "DATABASE_URL"},
-    "driver":"pg"
-  },
   "dev": {
     "driver": "mysql",
     "user": {"ENV": "DB_USER"},
