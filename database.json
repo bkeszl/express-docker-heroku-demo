@@ -1,6 +1,9 @@
 {
+  "heroku": {
+    "driver": "pg",
+    "DATABASE_URL": { "ENV": "DATABASE_URL" }
+  },
   "dev": {
-    "defaultEnv": "dev",
     "driver": "mysql",
     "user": {"ENV": "DB_USER"},
     "password": {"ENV": "DB_PASSWORD"},
@@ -10,6 +13,6 @@
     "multipleStatements": true,
     "dialect": "mysql"
   },
-   "heroku": { "ENV": "DATABASE_URL" },
+  "defaultEnv": "dev",
   "sql-file": true
 }
