@@ -10,5 +10,6 @@
     "multipleStatements": true,
     "dialect": "mysql"
   },
+   "heroku": { "ENV": "DATABASE_URL" },
   "sql-file": true
 }
