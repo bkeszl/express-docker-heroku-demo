@@ -11,7 +11,5 @@
   }
 ,
   "sql-file": true,
-  "ssl": {
-    "rejectUnauthorized": false
-  }
+  
 }
