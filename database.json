@@ -8,18 +8,7 @@
     "port": {"ENV": "DB_PORT"},
     "multipleStatements": true,
     "dialect": "mysql"
-  },
-  
-    "pg": {
-      "driver": "pg",
-        "url":{"ENV": "DATABASE_URL"},
-        "addIfNotExists": {
-            "ssl": true
-        },
-        "overwrite": {
-            "native": true
-        }
-    }
+  }
 ,
   "sql-file": true
 }
