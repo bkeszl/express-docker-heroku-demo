@@ -11,6 +11,7 @@
   },
   
     "pg": {
+      "driver": "pg",
         "url":{"ENV": "DATABASE_URL"},
         "addIfNotExists": {
             "ssl": true
