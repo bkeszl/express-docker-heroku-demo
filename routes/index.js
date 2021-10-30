@@ -7,12 +7,7 @@ router.get("/", function (req, res, next) {
   // get the client
 
   // create the connection to database
-  const connection = mysql.createConnection({
-    host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    database: process.env.DB_NAME,
-    password: process.env.DB_PASSWORD,
-  });
+  const connection = mysql.createConnection(process.env.JAWSDB_URL);
   const q = "SELECT * FROM dog";
   console.log(q);
   // simple query
