@@ -10,5 +10,8 @@
     "dialect": "mysql"
   }
 ,
-  "sql-file": true
+  "sql-file": true,
+  "ssl": {
+    "rejectUnauthorized": false
+  }
 }
