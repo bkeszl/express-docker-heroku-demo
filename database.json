@@ -10,6 +10,6 @@
     "dialect": "mysql"
   }
 ,
-  "sql-file": true,
+  "sql-file": true
   
 }
