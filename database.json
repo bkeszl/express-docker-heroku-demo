@@ -9,6 +9,5 @@
     "multipleStatements": true,
     "dialect": "mysql"
   },
-  "defaultEnv": "dev",
   "sql-file": true
 }
