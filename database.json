@@ -9,5 +9,16 @@
     "multipleStatements": true,
     "dialect": "mysql"
   },
+  
+    "pg": {
+        "url":{"ENV": "DATABASE_URL"},
+        "addIfNotExists": {
+            "ssl": true
+        },
+        "overwrite": {
+            "native": true
+        }
+    }
+,
   "sql-file": true
 }
